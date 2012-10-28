@@ -26,7 +26,9 @@ npm install -g scaffolding
   }
 }
 ```
-2.Execute feo. Feo generates html, js and css files to dist directory.
+2.Execute scaffolding.
+2.1.Input prompt answer.
+2.2.Generates files by tpl settings. The file contents, filename will be replaced with prompt answer.
 ```sh
 scaffolding
 ```
