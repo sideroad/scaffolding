@@ -1,0 +1,43 @@
+{
+  "name": "{{name}}",
+  "description": "{{description}}",
+  "version": "0.0.1",
+  "homepage": "https://github.com/{{author}}/{{name}}",
+  "author": "{{author}} <{{email}}> ({{url}})",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sideroad/{{name}}.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sideroad/{{name}}/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "main": "{{name}}.js",
+  "bin": {
+    "{{name}}": "./bin/{{name}}"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": [
+    "{{name}}"
+  ],
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "license": "MIT"
+}

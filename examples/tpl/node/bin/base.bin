@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+// Run {{name}}.
+var config = JSON.parse(fs.readFileSync('{{name}}.json','utf8').toString().replace(/\n/g,''));
+require('../lib/{{name}}').exec( config );

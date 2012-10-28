@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "name": {
+      "pattern": "^[a-zA-Z\\.\\-\\d]+$",
+      "message": "Name must be only letters, numbers, dots, or dashes",
+      "default": "sample",
+      "required": true
+    },
+    "description": {
+    },
+    "author": {
+      "required": true
+    },
+    "email": {
+      "required": true
+    },
+    "url": {
+      "required": true
+    }
+  },
+  "tpl": {
+    "tpl/node/bin/base.bin": "dist/node/bin/{{name}}",
+    "tpl/node/package.json": "dist/node/package.json",
+    "tpl/node/README.md": "dist/node/README.md",
+    "tpl/node/examples": "dist/node/examples",
+    "tpl/node/lib": "dist/node/lib"
+  }
+}

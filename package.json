@@ -1,7 +1,7 @@
 {
   "name": "scaffolding",
   "description": "Application scaffolding for any project.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/sideroad/scaffolding",
   "author": "sideroad <sideroad.jp@gmail.com> (http://sideroad.secret.jp/)",
   "repository": {

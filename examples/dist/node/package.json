@@ -1,0 +1,43 @@
+{
+  "name": "sample",
+  "description": "",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sideroad/sample",
+  "author": "sideroad <sideroad.jp@gmail.com> (http:&#x2F;&#x2F;sideroad.secret.jp&#x2F;)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sideroad/sample.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sideroad/sample/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "main": "sample.js",
+  "bin": {
+    "sample": "./bin/sample"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": [
+    "sample"
+  ],
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "license": "MIT"
+}

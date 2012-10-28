@@ -11,7 +11,7 @@
     }
   },
   "tpl": {
-    "tpl/src/base.js": "dist/src/{{name}}.js",
-    "tpl/test/base.test": "dist/test/{{name}}"
+    "tpl/jquery.plugin/src/base.js": "dist/jquery.plugin/src/{{name}}.js",
+    "tpl/jquery.plugin/test/base.test": "dist/jquery.plugin/test/{{name}}"
   }
 }
