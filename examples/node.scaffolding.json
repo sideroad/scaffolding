@@ -3,7 +3,7 @@
     "name": {
       "pattern": "^[a-zA-Z\\.\\-\\d]+$",
       "message": "Name must be only letters, numbers, dots, or dashes",
-      "default": "sample",
+      "default": "node.sample",
       "required": true
     },
     "description": {
@@ -19,10 +19,10 @@
     }
   },
   "tpl": {
-    "tpl/node/bin/base.bin": "dist/node/bin/{{name}}",
-    "tpl/node/package.json": "dist/node/package.json",
-    "tpl/node/README.md": "dist/node/README.md",
-    "tpl/node/examples": "dist/node/examples",
-    "tpl/node/lib": "dist/node/lib"
+    "tpl/node/bin/base.bin": "{{name}}/bin/{{name}}",
+    "tpl/node/package.json": "{{name}}/package.json",
+    "tpl/node/README.md": "{{name}}/README.md",
+    "tpl/node/examples": "{{name}}/examples",
+    "tpl/node/lib/base.js": "{{name}}/lib/{{name}}.js"
   }
 }

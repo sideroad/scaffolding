@@ -1,6 +1,6 @@
 /**
 *
-* sample
+* jquery.sample
 * @author sideroad
 */
 (function(globals, $){

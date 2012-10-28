@@ -1,6 +1,6 @@
 (function( QUnit, $ ) {
 
-    module( "sample" );
+    module( "jquery.sample" );
     
     test( "test something", function() {
         var actual = 1,

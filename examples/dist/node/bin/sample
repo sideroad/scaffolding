@@ -1,5 +1,0 @@
-#!/usr/bin/env node
-
-// Run sample.
-var config = JSON.parse(fs.readFileSync('sample.json','utf8').toString().replace(/\n/g,''));
-require('../lib/sample').exec( config );

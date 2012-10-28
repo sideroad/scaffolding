@@ -1,5 +1,5 @@
 /**
-* sample
+* node.sample
 *
 * @author sideroad
 */

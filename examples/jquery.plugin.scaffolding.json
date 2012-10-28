@@ -3,7 +3,7 @@
     "name": {
       "pattern": "^[a-zA-Z\\.\\-\\d]+$",
       "message": "Name must be only letters, numbers, dots, or dashes",
-      "default": "sample",
+      "default": "jquery.sample",
       "required": true
     },
     "author": {
@@ -11,7 +11,7 @@
     }
   },
   "tpl": {
-    "tpl/jquery.plugin/src/base.js": "dist/jquery.plugin/src/{{name}}.js",
-    "tpl/jquery.plugin/test/base.test": "dist/jquery.plugin/test/{{name}}"
+    "tpl/jquery.plugin/src/base.js": "{{name}}/src/{{name}}.js",
+    "tpl/jquery.plugin/test/base.test": "{{name}}/test/{{name}}"
   }
 }
