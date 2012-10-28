@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 
 // Run scaffolding.
-var fs = require('fs');
+var fs = require('fs'),
+    json = process.argv[2] || 'scaffolding.json';
 
-if( !fs.existsSync('scaffolding.json') ){
+if( !fs.existsSync(json) ){
   throw Error("scaffolding.json not found");
 }
 

@@ -33,7 +33,9 @@ npm install -g scaffolding
 scaffolding
 ```
 
-##Offcourse! Generally, project involved many developers
+##Advanced
+
+###Offcourse! Generally, project involved many developers
 1.Prepare .default.scaffolding.json
 ```js
 {
@@ -41,6 +43,11 @@ scaffolding
 }
 ```
 2.You can override the default setting!
+
+###Use your favorite name for json
+```sh
+scaffolding chocolate.json
+```
 
 ##Dependencies with awesome library
 * [prompt](https://github.com/flatiron/prompt)
