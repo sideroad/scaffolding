@@ -1,0 +1,51 @@
+{
+  "name": "scaffolding",
+  "description": "Application scaffolding for any project.",
+  "version": "0.0.2",
+  "homepage": "https://github.com/sideroad/scaffolding",
+  "author": "sideroad <sideroad.jp@gmail.com> (http://sideroad.secret.jp/)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sideroad/scaffolding.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sideroad/scaffolding/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "main": "scaffolding.js",
+  "bin": {
+    "scaffolding": "./bin/scaffolding"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "prompt": "~0.2.8",
+    "wrench": "~1.3.9",
+    "mustache" : "~0.7.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "prompt": "~0.2.8",
+    "wrench": "~1.3.9",
+    "mustache" : "~0.7.0"
+  },
+  "keywords": [
+    "scaffold",
+    "scaffolding",
+    "skeleton"
+  ],
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "license": "MIT"
+}

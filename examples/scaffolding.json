@@ -1,0 +1,17 @@
+{
+  "properties": {
+    "name": {
+      "pattern": "^[a-zA-Z\\.\\-\\d]+$",
+      "message": "Name must be only letters, numbers, dots, or dashes",
+      "default": "sample",
+      "required": true
+    },
+    "author": {
+      "required": true
+    }
+  },
+  "tpl": {
+    "tpl/src/base.js": "dist/src/{{name}}.js",
+    "tpl/test/base.test": "dist/test/{{name}}"
+  }
+}

@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+// Run scaffolding.
+var fs = require('fs');
+
+if( !fs.existsSync('scaffolding.json') ){
+  throw Error("scaffolding.json not found");
+}
+
+var config = JSON.parse(fs.readFileSync('scaffolding.json','utf8').toString().replace(/\n/g,''));
+require('../lib/scaffolding').generate( config );
