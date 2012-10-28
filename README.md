@@ -35,10 +35,11 @@ scaffolding
 
 ##Offcourse! Generally, project involved many developers
 1.Prepare .default.scaffolding.json
-```
+```js
 {
   "author": "sideroad"
 }
+```
 2.You can override the default setting!
 
 ##Dependencies with awesome library
