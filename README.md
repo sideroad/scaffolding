@@ -6,7 +6,7 @@ npm install -g scaffolding
 ```
 
 ##Simple to use
-1. Prepare scaffolding.json
+1.Prepare scaffolding.json
 ```js
 {
   "properties": {
