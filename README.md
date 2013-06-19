@@ -6,7 +6,7 @@ npm install -g scaffolding
 ```
 
 ##Simple to use
-1.Prepare scaffolding.json
+1. Prepare scaffolding.json
 ```js
 {
   "properties": {
@@ -26,9 +26,9 @@ npm install -g scaffolding
   }
 }
 ```
-2.Execute scaffolding.
-3.Input prompt answer.
-4.Generates files by tpl settings. The file contents, filename will be replaced with prompt answer.
+2. Execute scaffolding.
+3. Input prompt answer.
+4. Generates files by tpl settings. The file contents, filename will be replaced with prompt answer.
 ```sh
 scaffolding
 ```
@@ -36,13 +36,13 @@ scaffolding
 ##Advanced
 
 ###Offcourse! Generally, project involved many developers
-1.Prepare .default.scaffolding.json
+1. Prepare .default.scaffolding.json
 ```js
 {
   "author": "sideroad"
 }
 ```
-2.You can override the default setting!
+2. You can override the default setting!
 
 ###Use your favorite name for json
 ```sh
